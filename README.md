@@ -1,3 +1,3 @@
-# CareRoute Ambulance Rescue
+# CareRoute Ambulance Game
 
-Browser MVP game.
+Web MVP
