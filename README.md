@@ -11,6 +11,7 @@ Top-down ambulance rescue MVP.
 - Auto-start engine once a run begins
 - Arrow keys rotate ambulance
 - Mobile tap-and-hold steering
-- Random obstacle spawns over time (each obstacle expires after ~15s; collision deducts money)
-- Pickup patient and deliver to nearest hospital
+- First obstacle appears after 5s, then one new obstacle every 3s
+- Each obstacle expires after ~25s (collision deducts money)
+- Patients must be picked up within 10s, then dropped off within 10s
 - Social leaderboard: submit your name + high score and compare at the event
