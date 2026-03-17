@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CareRoute Ambulance Rescue MVP</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <h1>CareRoute: Ambulance Rescue</h1>
+    <p class="subtitle">Pick up patients fast, deliver to nearest hospital, survive as long as possible.</p>
+
+    <div class="hud">
+      <div>⏱ Time: <span id="timeLeft">120</span>s</div>
+      <div>💵 Money: $<span id="moneyLeft">1000</span></div>
+      <div>🚑 Saved: <span id="savedCount">0</span></div>
+      <div>🏁 Survival: <span id="survivalTime">0</span>s</div>
+      <div>🏆 Best: <span id="bestScore">0</span>s</div>
+    </div>
+
+    <div id="status" class="result">Tap Start to begin.</div>
+
+    <pre id="map" class="map"></pre>
+
+    <div class="controls">
+      <button id="startBtn">Start Game</button>
+      <button id="upBtn">↑</button>
+      <button id="leftBtn">←</button>
+      <button id="downBtn">↓</button>
+      <button id="rightBtn">→</button>
+    </div>
+
+    <div class="legend">Legend: A=Ambulance, P=Patient, H=Hospital, .=Road</div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
