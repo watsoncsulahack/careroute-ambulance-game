@@ -8,8 +8,9 @@ Top-down ambulance rescue MVP.
 - Web prototype (Android-parity flow): https://watsoncsulahack.github.io/careroute-prototype-web/
 
 ## Gameplay
-- Momentum driving + steering controls
+- Auto-start engine once a run begins
 - Arrow keys rotate ambulance
 - Mobile tap-and-hold steering
 - Random obstacle spawns (collision deducts money)
 - Pickup patient and deliver to nearest hospital
+- Social leaderboard: submit your name + high score and compare at the event
